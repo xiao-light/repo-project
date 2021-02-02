@@ -1,0 +1,309 @@
+/* 详情页样式 */
+.de_container{
+	margin-top: 20px;
+}
+/* 面包屑导航 */
+.crumb_wrap{
+	height: 25px;
+}
+.crumb_wrap a{
+	margin-right: 10px;
+}
+/* 产品介绍模块 */
+.preview_wrap{
+	width: 400px;
+	height: 590px;
+	/* background-color: pink; */
+}
+.preview_wrap .preview_img{
+	border: 1px solid #666;
+}
+.preview_wrap .preview_img img{
+	width: 398px;
+	height: 398px;
+	background-color: skyblue;
+}
+.preview_list{
+	position: relative;
+	height: 60px;
+	margin-top: 60px;
+	/* background-color: pink; */
+}
+.list_item{
+	width: 320px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: skyblue;
+}
+.list_item li{
+	/* display: block; */
+	float: left;
+	width: 56px;
+	height: 56px;
+	margin: 0 2px;
+	border: 2px solid transparent;
+}
+.list_item li.current{
+	border-color: #C81623;
+}
+.arrow_prev,
+.arrow_next{
+	position: absolute;
+	top:15px;
+	width: 22px;
+	height: 32px;
+	font-family: 'icomoon';
+	font-size: 32px;
+	padding: 5px;
+	text-align: center;
+	/* background-color: #5C5251; */
+}
+.arrow_prev{
+	left: 0;
+}
+.arrow_next{
+	right: 0;
+}
+.preview_guide{
+	width: 400px;
+	height: 56px;
+	background-color: skyblue;
+	margin-top: 10px;
+}
+.iteminfo_wrap{
+	width: 718px;
+}
+.sku_name{
+	font-size: 16px;
+	font-weight: 700;
+	height: 30px;
+}
+.news{
+	color: #E12228;
+	height: 32px;
+}
+.summary_price,
+.summary_promotion{
+	position: relative;
+	padding: 5px 0;
+	background-color: #fee9eb;
+	/* font-size: 14px; */
+}
+.summary dl{
+	overflow: hidden;
+}
+.summary dt,
+.summary dd{
+	float: left;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.summary dd{
+	/* display: inline-block; */
+	/* line-height: 36px; */
+	/* padding-top: 18px; */
+}
+.summary dt{
+	color: #666;
+	width: 60px;
+	/* text-align: center; */
+	padding-left: 10px;
+	height: 36px;
+	margin-top: 6px;
+}
+.price{
+	font-size: 24px;
+	color: #E12228;
+}
+.summary_price a{
+	color: #C81623;
+}
+.remark{
+	position: absolute;
+	top: 20px;
+	right: 5px;
+	color: #666;
+}
+.summary_promotion{
+	/* font-size: 12px; */
+	color: #666;
+	padding-top: 0;
+	/* margin-bottom: 10px; */
+}
+.summary_promotion dd{
+	width: 450px;
+	height: 33px;
+}
+.summary_promotion em{
+	display: inline-block;
+	height: 22px;
+	width: 60px;
+	background-color: #C81623;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+	font-size: 12px;
+}
+.summary_support dd{
+	line-height: 36px;
+	color: #666666;
+}
+.Distribution{
+	display: block;
+	color: #666666;
+	width: 781px;
+	/* border: 1px solid red; */
+}
+.Distribution dd{
+	/* padding-top: 10px; */
+	width: 480px;
+}
+.line{
+	height: 1px;
+	width: 400px;
+	margin: 10px 0 10px 20px;
+	
+	background-color: #A4A4A4;
+}
+.choose_color{
+	
+}
+.choose_color a{
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	background-color: #F7F7F7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 41px;
+}
+.choose_version{
+	/* margin: 10px 0; */
+}
+.choose_version a,
+.choose_type a,
+.choose_suit a{
+	display: inline-block;
+	height: 32px;
+	padding: 0 12px;
+	background-color: #F7F7F7;
+	border: 1px solid #EDEDED;
+	text-align: center;
+	line-height: 32px;
+}
+.choose_btns{
+	margin-top: 20px;
+}
+.choose_amount{
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 46px;
+	/* background-color: pink; */
+}
+.choose_amount input{
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.add,.reduce{
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+	align-content: #f1f1f1;
+}
+.add{
+	top: 0;
+}
+.reduce{
+	bottom: 0;
+	/* 禁止鼠标样式 */
+	cursor: not-allowed;
+}
+.addcar{
+	float: left;
+	width: 142px;
+	height: 46px;
+	background-color: #C81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+/* -----------product_detail------------------- */
+.aside{
+	width: 208px;
+	border: 1px solid #ccc;
+	/* height: 1000px; */
+}
+.tab_list{
+	height: 34px;
+}
+.tab_list li{
+	float: left;
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #ccc;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+} 
+.fir_tab{
+	width: 104px;
+}
+.tab_list .current{
+	background-color: #fff;
+	border-bottom: 0;
+	color: red;
+}
+.sec_tab{
+	width: 103px;
+	border-left:1px solid #ccc;
+}
+.tab_con{
+	padding: 0 10px;
+}
+.tab_con li{
+	border-bottom: 1px solid #ccc;
+}
+.tab_con li img{
+	width: 190px;
+	height: 137px;
+	background-color: skyblue;
+	margin-top: 2px;
+}
+.tab_con li h5{
+	/* 文字强制一行显示，超出的省略并用省略号显示 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400px;
+	color: #666;
+}
+.aside_price{
+	font-weight: 700px;
+	font-size: 12px;
+}
+.aside_addcar{
+	display: block;
+	width: 88px;
+	height: 26px;
+	border: 1px solid #ccc;
+	background-color: #F7F7F7;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 26px;
+	font-size: 12px;
+	
+}
+.detail{
+	width: 978px;
+	border: 1px solid #ccc;
+	/* height: 1000px; */
+}

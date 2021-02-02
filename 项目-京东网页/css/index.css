@@ -1,0 +1,285 @@
+/* 首页的样式 */
+/* ------main----- */
+.main{
+	width: 980px;
+	height: 455px;
+	/* background-color: pink; */
+	margin: 10px 0 0 219px;
+}
+/* focus */
+.focus{
+	position: relative;
+	width: 721px;
+	height: 455px;
+	background-color: skyblue;
+}
+.arrow-l,
+.arrow-r{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background:rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: icomoon;
+	font-size: 20px;
+}
+.arrow-r{
+	right: 0;
+}
+.circle{
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li{
+	float: left;
+	width: 8px;
+	height: 8px;
+	/* background-color: #fff; */
+	border: 1px solid #fff;
+	margin: 0 3px;
+	border-radius: 50%;
+	/* 鼠标经过变成小手 */
+	cursor: pointer;
+}
+.current{
+	background-color: #fff;
+}
+/* newsflash */
+.newsflash{
+	width: 250px;
+	height: 455px;
+	/* background-color: #87CEEB; */
+}
+.news{
+	height: 163px;
+	border: 1px solid #ccc;
+	/* background-color: pink; */
+}
+.news .news-hd{
+	height: 32px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	line-height: 32px;
+	padding:0 15px;
+	color: #666;
+}
+.news .news-hd a{
+	float: right;
+	font-family: 'icomoon';
+}
+.news-bd{
+	color: #666;
+	padding: 10px 0 0 12px;
+}
+.news-bd li{
+	height: 23px;
+}
+.news-bd ul li a{
+	font-size: 14px;
+}
+.lifeservice{
+	overflow: hidden;
+	height: 208px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+.lifeservice ul{
+	width: 252px;
+}
+.lifeservice li{
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.lifeservice li a{
+	display: block;
+	/* 解决i 引起的外边距塌陷合并问题 */
+	overflow: hidden;
+	height: 100%;
+}
+.service-ico{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: skyblue;
+	margin: 10px auto;
+}
+.lifeservice li a p{
+	font-size: 14px;
+	text-align: center;
+	line-height: ;
+}
+.bargain{
+	height: 75px;
+	margin-top: 5px;
+	background-color: skyblue;
+}
+/* -----recommend----- */
+.recommend{
+	height: 163px;
+	margin-top: 10px;
+	/* background-color: pink; */
+}
+.recom-hd{
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img{
+	width: 80px;
+	height: 80px;
+	background-color: skyblue;
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3{
+	font-size: 18px;
+	color: #FFF;
+	font-weight: normal;
+}
+.recom-bd{
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recom-bd li{
+	float: left;
+	height: 145px;
+	width: 248px;
+	border-right: 1px solid #ccc;
+	margin-top: 10px;
+}
+.recom-bd li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: skyblue;
+}
+/* -----floor----- */
+/* box-hd */
+.box-hd{
+	height: 30px;
+	/* background-color: pink; */
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3{
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+}
+.tab-list{
+	float: right;
+	line-height: 30px;
+}
+.tab-list li{
+	float: left;
+	color: #666;
+}
+.tab-list li a{
+	margin: 0 15px;
+}
+/* box-bd */
+.box-bd{
+	height: 361px;
+	/* background-color: pink; */
+}
+.w209{
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329{
+	width: 329px;
+}
+.w219{
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220{
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.tab-con li{
+	float: left;
+	height: 361px;
+}
+.tab-con-list {
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+.tab-con-list li{
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+}
+.w209-img{
+	height: 227px;
+	width: 187px;
+	background-color: skyblue;
+}
+.a-img{
+	display: block;
+	height: 361px;
+	width: 329px;
+	background-color: skyblue;
+}
+.a-img img{
+	height: 100%;
+	width: 100%;
+	background-color: skyblue;
+}
+.tab-con-item{
+	border-bottom: #ccc;
+}
+.tab-con-item a{
+	display: block;
+	width: 100%;
+	height: 180px;
+}
+.w219 .tab-con-item img{
+	height: 100%;
+	width: 100%;
+	background-color: skyblue;
+}
+.w220 .tab-con-item img{
+	height: 100%;
+	width: 100%;
+	background-color: skyblue;
+}
+.w220 .only-a{
+	display: block;
+	width: 100%;
+	height: 361px;
+	/* background-color: skyblue; */
+}
+/* 固定电梯导航fixedtool */
+.fixedtool{
+	position: fixed;
+	top:100px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+.fixedtool li{
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current{
+	background-color: #C81623;
+	color: #fff;
+}

@@ -1,0 +1,159 @@
+/* 列表页css */
+/* -------------header------------ */
+.sk{
+	position: absolute;
+	top: 40px;
+	left: 185px;
+	height: 32px;
+	border-left:1px solid #b1191a;
+	padding-left: 15px;
+}
+.sk img{
+	height: 32px;
+	width: 60px;
+	background-color: skyblue;
+}
+/* ----------nav---------- */
+/* sk_list */
+.sk_list li{
+	float: left;
+	/* height: 45px; */
+	line-height: 45px;
+	margin: 0 30px;
+}
+.sk_list li a{
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+}
+.sk_list li a:hover{
+	color: #C81623;
+}
+/* sk_con */
+.sk_con li{
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_con li a{
+	font-size: 14px;
+	font-weight: 700px;
+	font-family: 'icomoon';
+}
+/* --------sk_container----------- */
+
+/* sk_hd */
+.sk_hd img{
+	width: 100%;
+	height: 178px;
+	background-color: skyblue;
+}
+/* sk_bd */
+.sk_bd{
+	margin-top: 25px;
+}
+.sk_bd ul{
+	width: 1212px;
+	overflow: hidden;
+}
+.sk_goods{
+	position: relative;
+	float: left;
+	height: 458px;
+	width: 288px;
+	border: 1px solid transparent;
+	margin: 0 12px 15px 0;
+}
+.sk_goods:hover{
+	border: 1px solid #e12228;
+}
+.sk_goods img{
+	width: 288px;
+	height: 290px;
+	background-color: skyblue;
+}
+.sk_goods_title{
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	padding: 10px;
+}
+.sk_goods_price em{
+	font-size: 22px;
+	color: #E60012;
+}
+.sk_goods_price del{
+	font-size: 14px;
+	color: #a4a4a4;
+}
+.sk_goods_progress{
+	padding: 0 10px;
+	font-size: 12px;
+	color: #666;
+}
+.bar{
+	display: inline-block;
+	height: 10px;
+	width: 130px;
+	border: 1px solid #B1191A;
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 5px;
+}
+.bar_in{
+	width: 87%;
+	height: 10px;
+	background-color: #B1191A;
+}
+.sk_goods_buy{
+/* 	display: block; */
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #B1191A;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+}
+/* page */
+.page{
+	margin: 40px 0;
+	/* 里面的文字 行内块 行内元素 都可以居中对齐 */
+	text-align: center;
+}
+.page_num button{
+	font-family: 'icomoon';
+	border: 1px solid #ccc;
+	height: 22px;
+}
+/* .page_num button:hover{
+	color: #E12228;
+} */
+.page_num  a{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #ccc;
+	margin-top: 2px;
+}
+.page_skip{
+	margin-left: 30px;
+	color: #666;
+}
+.page_skip input{
+	width: 30px;
+	text-align: center;
+	/* border-color: #666; */
+	transition: all 0.5px; 
+}
+.page_skip input:focus{
+	width: 88px;
+	border: 1px solid skyblue;
+}
+.page_skip button{
+	border: 1px solid #ccc;
+	height: 22px;
+	width: 36px;
+}
